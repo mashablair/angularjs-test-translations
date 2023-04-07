@@ -1,0 +1,5 @@
+{
+  "GREETING": "Hello, World!",
+  "GREETING_Concat": "Hello, {{ name }}!!",
+  "WELCOME_MESSAGE_Service": "Welcome to the site, {{name}}."
+}
