@@ -16,17 +16,19 @@ angular
   .controller("View2Ctrl", [
     "$scope",
     "MyService",
-    function ($scope, MyService) {
+    "fmPMFactory",
+    function ($scope, MyService, fmPMFactory) {
       $scope.name = "Masha";
 
       // Use custom MyService:
       $scope.message = MyService.getMessage();
 
       // User custom MyService w/ promise
-      MyService.getGreetingWithName($scope.name).then(function (
-        greeting_service_concat
-      ) {
+      MyService.getGreetingWithName($scope.name).then(function (greeting_service_concat) {
         $scope.greeting_service_concat = greeting_service_concat;
       });
+
+      // Call fmPMFactory.getPostPriorText()
+      $scope.postPriorText = fmPMFactory.getPostPriorText();
     },
   ]);

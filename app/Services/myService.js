@@ -13,9 +13,8 @@ angular
       };
 
       this.getGreetingWithName = function (name) {
+        // en.json: "Welcome to the site, {{name}}."
         const greetingKey = "WELCOME_MESSAGE_Service";
-        //return this.getTranslatedMessage(greetingKey, { name: name });
-
         // Wrap the translation in a promise
         return $translate(greetingKey, { name: name });
       };

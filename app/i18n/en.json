@@ -1,5 +1,10 @@
 {
   "GREETING": "Hello, World!",
   "GREETING_Concat": "Hello, {{ name }}!!",
-  "WELCOME_MESSAGE_Service": "Welcome to the site, {{name}}."
+  "WELCOME_MESSAGE_Service": "Welcome to the site, {{name}}.",
+  "POST_PRIOR_TEXT": "Post {{months}} month(s) and {{days}} day(s) before due date",
+  "POST_PRIOR_TEXT_MONTHS_ONLY": "Post {{months}} month(s) before due date",
+  "POST_PRIOR_TEXT_DAYS_ONLY": "Post {{days}} day(s) before due date",
+  "String from custom MyService": "String from custom MyService",
+  "Hello from MyService!": "Hello from MyService!"
 }

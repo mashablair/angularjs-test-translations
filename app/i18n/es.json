@@ -1,3 +1,10 @@
 {
-  "GREETING": "¡Hola, Mundo!"
+  "GREETING": "¡Hola, Mundo!",
+  "GREETING_Concat": "¡Hola, {{ name }}!!",
+  "WELCOME_MESSAGE_Service": "Bienvenida al sitio, {{name}}.",
+  "POST_PRIOR_TEXT": "Publicar {{months}} mes(es) y {{days}} día(s) antes de la fecha de vencimiento",
+  "POST_PRIOR_TEXT_MONTHS_ONLY": "Publicar {{months}} mes(es) antes de la fecha de vencimiento",
+  "POST_PRIOR_TEXT_DAYS_ONLY": "Publicar {{days}} día(s) antes de la fecha de vencimiento",
+  "String from custom MyService": "Cadena de MyService personalizado",
+  "Hello from MyService!": "¡Hola de MyService!"
 }

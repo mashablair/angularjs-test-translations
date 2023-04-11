@@ -10,6 +10,7 @@ angular
     "myApp.version",
     // custom services
     "myServiceModule",
+    "app.services.fmPMFactory"
   ])
   .config([
     "$locationProvider",
@@ -28,7 +29,7 @@ angular
 
       // Set the default language
       $translateProvider.preferredLanguage("en");
-      //$translateProvider.preferredLanguage("es");
+      // $translateProvider.preferredLanguage("es");
       // $translateProvider.preferredLanguage("ru");
     },
   ]);

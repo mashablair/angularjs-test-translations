@@ -1,11 +1,14 @@
 <h1>{{ 'GREETING_Concat' | translate: {name: name} }}</h1>
 
-<h2>String from custom MyService:</h2>
-<p>{{ message }}</p>
+<h2>{{ "String from custom MyService" | translate}}:</h2>
+<p>{{ message | translate }}</p>
 
 <p>{{ greeting_service_concat }}</p>
 
 <p>This is the partial for view 2.</p>
+
+<h3>fmPMFactory text:</h3>
+<p>{{postPriorText}}</p>
 
 <h3>Metadata:</h3>
 <p>
